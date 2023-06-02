@@ -1,0 +1,51 @@
+body{
+  
+background: #000;
+}
+
+h4{
+    color: white;
+}
+div{
+    align-items: center;
+text-align: center;
+}
+button{
+    border-radius: 200px;
+    border: 0px;
+}
+
+a{
+    color: white;
+text-decoration: overline;
+}
+h1{
+    color: red;
+}
+
+h2{
+    color: red;
+}
+
+.b{
+    background-color:  chartreuse;
+
+}
+
+li{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+input{
+    border-radius: 200px;
+border: 0;
+
+}
+
+ul{
+   text-align: justify;
+}
