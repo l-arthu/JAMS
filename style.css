@@ -28,7 +28,7 @@ h2{
 }
 
 .b{
-    background-color:  chartreuse;
+    background-color:  rgba(5, 192, 12, 1);
 
 }
 
@@ -46,6 +46,15 @@ border: 0;
 
 }
 
-ul{
-   text-align: justify;
+
+h3{
+    color: white;
 }
+
+ul li:before {
+    content: '•';
+    color: red }
+
+    li{
+        list-style-type: none;
+    }
