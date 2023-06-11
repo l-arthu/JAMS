@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    overflow-x: hidden;
+    background: #000;
+    color: white;
+}
+
+button{
+        border-radius: 20px;
+        border: 0px;
+    position: relative;
+  left: 180px;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+button{
+        background-color:  rgba(5, 192, 12, 1);
+        color: white;
+width: 370px;
+    height: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+font-size: 17px;
+}
+
+p{
+    text-align: justify;
+margin: 19px;
+font-family: 'Raleway', sans-serif;
+}
+    button:hover{
+        background-color:#005000;
+    
+    }
+
+    .fi{
+        padding-top: 200px;
+        text-align: center;
+        color: #484d50;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: #c0c0c0;
+    }
+    ::-webkit-scrollbar {
+        width: 7px;
+        border-radius: 20px;     
+    }
+::-webkit-scrollbar-thumb {
+       background-color: red;
+    }
+    ::-webkit-scrollbar-thumb:hover{
+        background-color:  #484d50;
+    }
+   
+
+    .log{
+        width: 200px;
+    height: 205px;
+    position: relative;
+    left: 600px;
+    top: -40px;
+}
+
+    .di{
+        position: relative;
+        top: -135px;
+    left: 950px;
+
+}
+    a{
+        color: white;
+        text-decoration: none;
+        text-transform: none;
+    }
+   
+    a:hover {
+        color: #ff2200;
+    }
+    
+    .so{
+        color: #7a1b0c;
+    }
+    
