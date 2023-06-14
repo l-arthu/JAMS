@@ -293,7 +293,7 @@ body{
 display: none;
 }
     
-    .texe{ 
+    #texe{ 
         font-size: 15px;
     position: relative;
     left: 0px;
@@ -305,7 +305,7 @@ display: none;
     display: none;
 }
     
-    .texo{ 
+    #texo{ 
         font-size: 15px;
     position: relative;
     left: 0px;
@@ -317,7 +317,7 @@ display: none;
     display: none;
 }
     
-    .texi{ 
+    #texi{ 
         font-size: 15px;
     position: relative;
     left: 0px;
