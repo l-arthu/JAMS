@@ -3,14 +3,15 @@
 body{
     overflow-x: hidden;
     background: #000;
-    color: white;
+    display: flex;
+color: white;
 }
 
 button{
         border-radius: 20px;
         border: 0px;
     position: relative;
-  left: 180px;
+  left: 450px;
 }
 
 h1{
@@ -63,14 +64,14 @@ font-family: 'Raleway', sans-serif;
         width: 200px;
     height: 205px;
     position: relative;
-    left: 600px;
+    left: 850px;
     top: -40px;
 }
 
     .di{
         position: relative;
         top: -135px;
-    left: 950px;
+    left: 1350px;
 
 }
     a{
