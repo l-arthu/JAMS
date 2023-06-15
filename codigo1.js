@@ -9,8 +9,6 @@ function toggle(el) {
 }   
 
 
-
-
 function togle(el) {
   var display = document.getElementById(el).style.display;
   if(display == "none"){

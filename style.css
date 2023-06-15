@@ -352,8 +352,41 @@ top:340% ;
 }
 
 .savo{
-    width: 70vh;
-height: 40vh;
-margin-left: 30%;
-margin-top: 10%;
+    width: 90vh;
+height: 65vh;
+margin-left: 27%;
+margin-top: 5%;
+display: none;
+}
+
+.spt{
+    width: 90vh;
+    height: 65vh;
+    margin-left: 27%;
+    margin-top: 5%;
+    display: none;
+}
+
+.ch{
+    width: 90vh;
+    height: 65vh;
+    margin-left: 27%;
+    margin-top: 5%;
+
+}
+
+.y{
+    width: 90vh;
+    height: 65vh;
+    margin-left: 27%;
+    margin-top: 5%;
+display: none;
+}
+
+.u{
+    width: 90vh;
+    height: 65vh;
+    margin-left: 27%;
+    margin-top: 5%;
+    display: none;
 }
