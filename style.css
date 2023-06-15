@@ -329,3 +329,31 @@ display: none;
     display: none;
 }
 
+#c{
+    position: absolute;
+    padding: 6px;
+    box-shadow: -2px -2px 0 1px white inset;
+    border: solid transparent;
+    border-width: 0 0 1px 1px;
+    transform: rotate(317deg);
+left: 75%;
+top:340% ;
+}
+
+#i{
+    position: absolute;
+    padding: 6px;
+    box-shadow: -2px -2px 0 1px white inset;
+    border: solid transparent;
+    border-width: 0 0 1px 1px;
+    transform: rotate(135deg);
+    right: 75%;
+    top:340% ;
+}
+
+.savo{
+    width: 70vh;
+height: 40vh;
+margin-left: 30%;
+margin-top: 10%;
+}
