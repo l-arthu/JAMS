@@ -42,13 +42,13 @@ min-height: 100vh;
     .b{
         background-color:  rgba(5, 192, 12, 1);
         color: white;
-        width: 400px;
+        width: 380px;
             height: 50px;
             font-family: 'Raleway', sans-serif;
             font-weight: 700;
         font-size: 17px;
         position: relative;
-        left: 750px;
+        left: 37%;
     }
     
     p{
@@ -95,10 +95,11 @@ min-height: 100vh;
         }
     input::placeholder{
         font-family: 'Raleway', sans-serif;
+        font-size: 17px;
     }
     .di{
             position: absolute;
-            margin-top: -9vh;
+            margin-top: -7%;
         left: 60%;
     }
     a{
@@ -111,8 +112,8 @@ min-height: 100vh;
     }
     
     .log{
-        width: 32vh;
-    height: 20vh;
+        width: 270px;
+    height: 190px;
     position: relative;
     left: 40%;
     margin-top: -1%;
@@ -149,25 +150,21 @@ min-height: 100vh;
     
     .np{
         position: relative;
-        left: 750px;
-      padding-left: 12px;
+        left: 37%;
     }
     .nc{
         position: relative;
-        left: 750px;   
-        padding-left: 12px;
+        left: 37%;
     }
     
     .ne{
         position: relative;
-        left: 750px;
-        padding-left: 12px;
+        left: 37%;
     }
     
     .mail{
         position: relative;
-        left: 750px;
-        padding-left: 12px;
+        left: 37%;
     }
     
     #qua{
@@ -295,7 +292,7 @@ display: none;
 }
     
     #texe{ 
-        font-size: 15px;
+        font-size: 18px;
     position: relative;
     margin-left: -1px;
     background-color: #ff4040;
@@ -307,7 +304,7 @@ display: none;
 }
     
     #texo{ 
-        font-size: 15px;
+        font-size: 18px;
     position: relative;
     margin-left: -1px;
     background-color: #ff4040;
@@ -319,7 +316,7 @@ display: none;
 }
     
     #texi{ 
-        font-size: 15px;
+        font-size: 18px;
     position: relative;
     margin-left: -1px;
     background-color: #ff4040;
@@ -365,3 +362,14 @@ img:nth-child(1) {
   img:nth-child(5) {
     z-index: 5; 
   }
+
+  .lottie-player-controls {
+    display: none;
+}
+
+#fo{
+    margin-top: 200px;
+}
+
+
+

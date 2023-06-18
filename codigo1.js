@@ -19,13 +19,15 @@ const que = document.getElementById("que");
 const texe = document.getElementById("texe");
 const t = document.getElementById("t");
 const r = document.getElementById("e");
+const c = document.getElementById("a");
 que.addEventListener("click", function() {
   if (texe.style.display === "none") {
     texe.style.display = "block";
   que.style.background ="#ff4040"
   t.style. transform="rotate(405deg)"
-  t.style.marginTop = '-235px'
-  r.style.marginTop = '245px'
+  t.style.marginTop = '-280px'
+  r.style.marginTop = '284px'
+  c.style.marginTop = '5px'
 } else {
     texe.style.display = "none";
     que.style.background = "#484d50"
@@ -87,3 +89,23 @@ if(idx > img.length -1){
 }
 
 setInterval(carrosel,6000);
+
+const animationContainer = document.getElementById('lottie-container');
+
+const animation = lottie.loadAnimation({
+  container: animationContainer,
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: "./IMG/133580-rocket.json"});
+
+  
+  
+  const Container = document.getElementById('lottie-container');
+
+  const anim = lottie.loadAnimation({
+    container: Container,
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: "./IMG/123828-attention-red.json"});

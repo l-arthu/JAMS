@@ -11,7 +11,7 @@ button{
         border-radius: 20px;
         border: 0px;
     position: relative;
-  left: 450px;
+  left: 17%;
 }
 
 h1{
@@ -61,8 +61,8 @@ font-family: 'Raleway', sans-serif;
    
 
     .log{
-        width: 200px;
-    height: 205px;
+        width: 270px;
+        height: 190px;
     position: relative;
     left: 40%;
     margin-top: -1%;
