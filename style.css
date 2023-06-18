@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+margin: auto;
+}
+
 body{
-    overflow-x: hidden;
     background: rgb(0, 0, 0);
     color: white;
+    overflow-x: hidden;
+margin: 0;
+min-height: 100vh;
 }
+
     
     h4{
         font-family: 'Raleway', sans-serif;
@@ -89,9 +97,9 @@ body{
         font-family: 'Raleway', sans-serif;
     }
     .di{
-            position: relative;
-            top: -135px;
-        left: 1350px;
+            position: absolute;
+            margin-top: -9vh;
+        left: 60%;
     }
     a{
         color: white;
@@ -103,11 +111,11 @@ body{
     }
     
     .log{
-        width: 200px;
-    height: 205px;
+        width: 32vh;
+    height: 20vh;
     position: relative;
-    left: 850px;
-    top: -40px;
+    left: 40%;
+    margin-top: -1%;
 
 }
     
@@ -115,6 +123,7 @@ body{
         padding-top: 200px;
         text-align: center;
         color: #484d50;
+    align-content: end;
     }
     
     .c{
@@ -126,8 +135,8 @@ body{
             font-weight: 700;
         font-size: 17px;
     position: relative;
-    left: 750px;
-    margin-top: 20px;
+    left: 37%;
+    margin-top: 4%;
 }
     
     .c:hover{
@@ -174,9 +183,6 @@ body{
    
 }
     
-    #qua:hover{
-        background-color: #ff4040;
-    }
     
     #s {
         position: absolute;
@@ -187,7 +193,8 @@ body{
         transform: rotate(317deg);
     left: 350px;
     top:12px ;
-    }
+   opacity: 2;
+}
     
     .bot{
         position: relative;
@@ -195,7 +202,7 @@ body{
     top: -360px;
 }
     
-    .que{
+    #que{
         font-family: 'Raleway', sans-serif;
         background-color:  #484d50;
         font-size: 21px;
@@ -209,11 +216,9 @@ body{
 
 }
     
-    .que:hover{
-        background-color:#ff4040;
-    }
+   
     
-    .qui{
+    #qui{
         font-family: 'Raleway', sans-serif;
         background-color:  #484d50;
         font-size: 21px;
@@ -227,11 +232,8 @@ body{
   margin-top: 1px;
 }
 
-    
-    .qui:hover{
-        background-color: #ff4040;
-    }
-    .quo{
+
+    #quo{
         font-family: 'Raleway', sans-serif;
         background-color:  #484d50;
         font-size: 21px;
@@ -244,9 +246,8 @@ body{
     margin-top: 1px;
 }
     
-    .quo:hover{
-        background-color: #ff4040;
-    }
+    
+ 
     
     #e{
         position: absolute;
@@ -282,111 +283,85 @@ body{
     }
     
 #texa{ 
-        font-size: 15px;
+        font-size: 18px;
     position: relative;
-    left: 0px;
+    margin-left: -1px;
     background-color: #ff4040;
     border:20px solid #ff4040;
     margin-top: -2px;
     border-radius: 2px;
-    width: 340px;
+    width: 381px;
 display: none;
 }
     
     #texe{ 
         font-size: 15px;
     position: relative;
-    left: 0px;
+    margin-left: -1px;
     background-color: #ff4040;
     border:20px solid #ff4040;
     margin-top: -2px;
     border-radius: 2px;
-    width: 340px;
+    width: 381px;
     display: none;
 }
     
     #texo{ 
         font-size: 15px;
     position: relative;
-    left: 0px;
+    margin-left: -1px;
     background-color: #ff4040;
     border:20px solid #ff4040;
     margin-top: -2px;
     border-radius: 2px;
-    width: 340px;
+    width: 381px;
     display: none;
 }
     
     #texi{ 
         font-size: 15px;
     position: relative;
-    left: 0px;
+    margin-left: -1px;
     background-color: #ff4040;
     border:20px solid #ff4040;
     margin-top: -2px;
     border-radius: 2px;
-    width: 340px;
+    width: 381px;
     display: none;
 }
 
-#c{
-    position: absolute;
-    padding: 6px;
-    box-shadow: -2px -2px 0 1px white inset;
-    border: solid transparent;
-    border-width: 0 0 1px 1px;
-    transform: rotate(317deg);
-left: 75%;
-top:340% ;
+
+.container{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+transform: translateX(0);
+
 }
 
-#i{
-    position: absolute;
-    padding: 6px;
-    box-shadow: -2px -2px 0 1px white inset;
-    border: solid transparent;
-    border-width: 0 0 1px 1px;
-    transform: rotate(135deg);
-    right: 75%;
-    top:340% ;
-}
-
-.savo{
-    width: 90vh;
-height: 65vh;
-margin-left: 27%;
-margin-top: 5%;
-display: none;
-}
-
-.spt{
+.carrosel{
     width: 90vh;
     height: 65vh;
-    margin-left: 27%;
-    margin-top: 5%;
-    display: none;
+overflow: hidden;
 }
 
-.ch{
+img{
     width: 90vh;
     height: 65vh;
-    margin-left: 27%;
-    margin-top: 5%;
-
+    object-fit: cover; 
 }
 
-.y{
-    width: 90vh;
-    height: 65vh;
-    margin-left: 27%;
-    margin-top: 5%;
-display: none;
-}
-
-.u{
-    width: 90vh;
-    height: 65vh;
-    margin-left: 27%;
-    margin-top: 5%;
-    display: none;
-}
+img:nth-child(1) {
+    z-index: 1; 
+  }
+  img:nth-child(2) {
+    z-index: 2; 
+  }
+  img:nth-child(3) {
+    z-index: 3; 
+  }
+  img:nth-child(4) {
+    z-index: 4; 
+  }
+  img:nth-child(5) {
+    z-index: 5; 
+  }

@@ -64,16 +64,16 @@ font-family: 'Raleway', sans-serif;
         width: 200px;
     height: 205px;
     position: relative;
-    left: 850px;
-    top: -40px;
-}
-
-    .di{
-        position: relative;
-        top: -135px;
-    left: 1350px;
+    left: 40%;
+    margin-top: -1%;
 
 }
+.di{
+    position: relative;
+    margin-top: -7%;
+left: 60%;
+}
+
     a{
         color: white;
         text-decoration: none;
