@@ -88,3 +88,8 @@ left: 60%;
         color: #7a1b0c;
     }
     
+    video{
+        width: 700px;
+        height: 500px;
+    align-items: center;
+    }
